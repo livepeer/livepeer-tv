@@ -64,8 +64,6 @@ export async function getServerSideProps({
 const Background = ({ color }: { color: string }) => {
   return (
     <svg
-      width="1920"
-      height="999"
       viewBox="0 0 1920 999"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

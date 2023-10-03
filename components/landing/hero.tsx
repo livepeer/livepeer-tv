@@ -11,12 +11,12 @@ export default function Hero({ config }: { config: Configuration }) {
       <p className="mt-4 text-md lg:text-xl text-gray-200/50">
         {config.description}
       </p>
-      <div className="mt-10 flex space-x-1">
+      <div className="mt-10 grid grid-cols-2 lg:grid-cols-4  lg:gap-3">
         {config?.videos?.map((video, index) => (
           <div
             key={video?.sys?.id}
             className={clsx({
-              "p-2 bg-gray-50/10 overflow z-20 w-80  rounded-3xl": true,
+              "p-2 bg-gray-50/10 overflow lg:z-20 lg:w-80  rounded-3xl": true,
               "rotate-[5deg]": (index + 1) % 2 === 0,
               "-rotate-[5deg]": (index + 1) % 2 !== 0,
             })}
