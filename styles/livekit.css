@@ -1,0 +1,62 @@
+.lk-participant-tile .lk-participant-placeholder {
+  background-color: #1c1c1f !important;
+}
+
+.lk-disconnect-button {
+  background-color: #d92f35 !important;
+  border-radius: 10px !important;
+}
+
+/* Buttons */
+.lk-button,
+.lk-chat-form-button {
+  background: #1c1c1f !important;
+  border: 1px solid #1c1c1f !important;
+}
+
+.lk-button {
+  background-color: #1c1c1f !important;
+  border-radius: 10px !important;
+}
+
+.lk-button-menu {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  margin-left: -10px !important;
+}
+
+/* Menu */
+.lk-device-menu {
+  background-color: #1c1c1f !important;
+}
+
+/* Participant media */
+.lk-participant-media-video,
+.lk-participant-media-video[data-lk-source="screen_share"] {
+  background: #1c1c1f !important;
+}
+
+.lk-participant-media-video[data-lk-source="screen_share"] {
+  background: #1c1c1f !important;
+  height: 80vh;
+}
+
+.lk-grid-layout-wrapper {
+  height: 80vh !important;
+}
+
+.svg-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.lk-chat-toggle {
+  display: none !important;
+}
